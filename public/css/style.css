@@ -1,2 +1,186 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box; }
+
+::-webkit-scrollbar {
+  width: 5px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+  @media only screen and (max-width: 540px) {
+    html {
+      font-size: 43.75%; } }
+  @media only screen and (min-width: 540px) and (max-width: 900px) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (min-width: 540px) and (max-width: 900px) {
+    html {
+      font-size: 70%; } }
+
+::selection {
+  background-color: #9664cf;
+  color: #fff; }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_1 {
+    width: 8.33% !important; } }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_2 {
+    width: 16.66% !important; } }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_3 {
+    width: 25% !important; } }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_4 {
+    width: 33.33% !important; } }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_5 {
+    width: 41.66% !important; } }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_6 {
+    width: 50% !important; } }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_7 {
+    width: 58.33% !important; } }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_8 {
+    width: 66.66% !important; } }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_9 {
+    width: 75% !important; } }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_10 {
+    width: 83.33% !important; } }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_11 {
+    width: 91.66% !important; } }
+
+@media only screen and (max-width: 540px) {
+  .col_sm_12 {
+    width: 100% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_1 {
+    width: 8.33% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_2 {
+    width: 16.66% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_3 {
+    width: 25% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_4 {
+    width: 33.33% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_5 {
+    width: 41.66% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_6 {
+    width: 50% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_7 {
+    width: 58.33% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_8 {
+    width: 66.66% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_9 {
+    width: 75% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_10 {
+    width: 83.33% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_11 {
+    width: 91.66% !important; } }
+
+@media only screen and (min-width: 540px) and (max-width: 900px) {
+  .col_md_12 {
+    width: 100% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_1 {
+    width: 8.33% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_2 {
+    width: 16.66% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_3 {
+    width: 25% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_4 {
+    width: 33.33% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_5 {
+    width: 41.66% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_6 {
+    width: 50% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_7 {
+    width: 58.33% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_8 {
+    width: 66.66% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_9 {
+    width: 75% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_10 {
+    width: 83.33% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_11 {
+    width: 91.66% !important; } }
+
+@media only screen and (min-width: 900px) {
+  .col_lg_12 {
+    width: 100% !important; } }
+
 .testing-sass {
   background-color: orange; }
