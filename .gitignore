@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# because of node-sass watch script this file is getting changed again and again
+public/css/style.css
